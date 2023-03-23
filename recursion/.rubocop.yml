@@ -33,3 +33,6 @@ Layout/HeredocIndentation:
 
 Style/ClassVars:
   Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
