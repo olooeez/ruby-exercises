@@ -1,4 +1,4 @@
-[![CI](https://github.com/olooeez/ruby-exercises/actions/workflows/ci.yml/badge.svg)](https://github.com/olooeez/ruby-exercises/actions/workflows/ci.yml)
+[![test](https://github.com/olooeez/ruby-exercises/actions/workflows/test.yml/badge.svg)](https://github.com/olooeez/ruby-exercises/actions/workflows/test.yml)
 
 # ruby-exercises
 
