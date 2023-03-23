@@ -1,4 +1,3 @@
-# Implementing the Cesar Encryption Cipher
 class CeasarCipher
   def encrypt(message, key)
     encrypted_message = ''

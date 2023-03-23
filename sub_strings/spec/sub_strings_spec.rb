@@ -1,6 +1,6 @@
-# frozen_string_literal: true
+require_relative '../lib/sub_strings'
 
-require './lib/sub_strings'
+require 'rspec'
 
 RSpec.describe 'Sub Strings' do
   dictionary = %w[below down go going horn how howdy it i low own part partner sit]

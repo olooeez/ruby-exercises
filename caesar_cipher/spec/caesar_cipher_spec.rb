@@ -1,6 +1,6 @@
-# frozen_string_literal: true
+require_relative '../lib/caesar_cipher'
 
-require './lib/caesar_cipher'
+require 'rspec'
 
 describe CeasarCipher do
   subject { CeasarCipher.new }

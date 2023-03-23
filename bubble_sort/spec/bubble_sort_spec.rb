@@ -1,6 +1,6 @@
-# frozen_string_literal: true
+require_relative '../lib/bubble_sort'
 
-require './lib/bubble_sort'
+require 'rspec'
 
 RSpec.describe 'Bubble Sort' do
   describe '#bubble_sort' do

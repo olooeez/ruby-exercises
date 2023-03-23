@@ -1,6 +1,6 @@
-# frozen_string_literal: true
+require_relative '../lib/stock_picker'
 
-require './lib/stock_picker'
+require 'rspec'
 
 RSpec.describe 'Stock Picker' do
   describe '#stock_picker' do

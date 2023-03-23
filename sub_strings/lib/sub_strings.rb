@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def sub_strings(string, dictionary)
   result = {}
 
