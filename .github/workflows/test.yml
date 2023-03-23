@@ -1,4 +1,4 @@
-name: CI
+name:  test
 
 on: [push, pull_request]
 
@@ -9,4 +9,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run script
-      run: bash scripts/test_all.sh
+      run: bash scripts/test-all.sh

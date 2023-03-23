@@ -2,7 +2,7 @@
 
 if ! command -v bundler &> /dev/null; then
     echo "Installing bundler"
-    sudo gem install bundler
+    gem install bundler
 fi
 
 bundle config set --local with 'development'
@@ -15,7 +15,7 @@ do
     if [ -d 'spec' ]
     then
         echo "Installing dependencies for ${project:0:-1}"
-        sudo bundle install --quiet
+        bundle install --quiet
         echo "Running tests for ${project:0:-1}"
         bundle exec rspec
     else
